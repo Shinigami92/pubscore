@@ -1,0 +1,490 @@
+{
+  "payload": {
+    "allShortcutsEnabled": true,
+    "path": "/",
+    "repo": {
+      "id": 445599288,
+      "defaultBranch": "next",
+      "name": "faker",
+      "ownerLogin": "faker-js",
+      "currentUserCanPush": true,
+      "isFork": false,
+      "isEmpty": false,
+      "createdAt": "2022-01-07T18:22:27.000+01:00",
+      "ownerAvatar": "https://avatars.githubusercontent.com/u/97165289?v=4",
+      "public": true,
+      "private": false,
+      "isOrgOwned": true
+    },
+    "currentUser": {
+      "id": 7195563,
+      "login": "Shinigami92",
+      "userEmail": "chrissi92@hotmail.de"
+    },
+    "refInfo": {
+      "name": "next",
+      "listCacheKey": "v0:1723456997.0",
+      "canEdit": true,
+      "refType": "branch",
+      "currentOid": "bb1a73ca3a0ac3b3cf7a0ec25740bf6e872887ae"
+    },
+    "tree": {
+      "items": [
+        {
+          "name": ".devcontainer",
+          "path": ".devcontainer",
+          "contentType": "directory"
+        },
+        {
+          "name": ".github",
+          "path": ".github",
+          "contentType": "directory"
+        },
+        {
+          "name": ".vscode",
+          "path": ".vscode",
+          "contentType": "directory"
+        },
+        {
+          "name": "cypress",
+          "path": "cypress",
+          "contentType": "directory"
+        },
+        {
+          "name": "docs",
+          "path": "docs",
+          "contentType": "directory"
+        },
+        {
+          "name": "scripts",
+          "path": "scripts",
+          "contentType": "directory"
+        },
+        {
+          "name": "src",
+          "path": "src",
+          "contentType": "directory"
+        },
+        {
+          "name": "test",
+          "path": "test",
+          "contentType": "directory"
+        },
+        {
+          "name": ".editorconfig",
+          "path": ".editorconfig",
+          "contentType": "file"
+        },
+        {
+          "name": ".gitattributes",
+          "path": ".gitattributes",
+          "contentType": "file"
+        },
+        {
+          "name": ".gitignore",
+          "path": ".gitignore",
+          "contentType": "file"
+        },
+        {
+          "name": ".nvmrc",
+          "path": ".nvmrc",
+          "contentType": "file"
+        },
+        {
+          "name": ".prettierignore",
+          "path": ".prettierignore",
+          "contentType": "file"
+        },
+        {
+          "name": ".prettierrc.d.ts",
+          "path": ".prettierrc.d.ts",
+          "contentType": "file"
+        },
+        {
+          "name": ".prettierrc.js",
+          "path": ".prettierrc.js",
+          "contentType": "file"
+        },
+        {
+          "name": ".versionrc.json",
+          "path": ".versionrc.json",
+          "contentType": "file"
+        },
+        {
+          "name": "BACKERS.md",
+          "path": "BACKERS.md",
+          "contentType": "file"
+        },
+        {
+          "name": "CHANGELOG.md",
+          "path": "CHANGELOG.md",
+          "contentType": "file"
+        },
+        {
+          "name": "CODE_OF_CONDUCT.md",
+          "path": "CODE_OF_CONDUCT.md",
+          "contentType": "file"
+        },
+        {
+          "name": "CONTRIBUTING.md",
+          "path": "CONTRIBUTING.md",
+          "contentType": "file"
+        },
+        {
+          "name": "LICENSE",
+          "path": "LICENSE",
+          "contentType": "file"
+        },
+        {
+          "name": "README.md",
+          "path": "README.md",
+          "contentType": "file"
+        },
+        {
+          "name": "cypress.config.ts",
+          "path": "cypress.config.ts",
+          "contentType": "file"
+        },
+        {
+          "name": "eslint.config.js",
+          "path": "eslint.config.js",
+          "contentType": "file"
+        },
+        {
+          "name": "netlify.toml",
+          "path": "netlify.toml",
+          "contentType": "file"
+        },
+        {
+          "name": "package.json",
+          "path": "package.json",
+          "contentType": "file"
+        },
+        {
+          "name": "pnpm-lock.yaml",
+          "path": "pnpm-lock.yaml",
+          "contentType": "file"
+        },
+        {
+          "name": "tsconfig.build.json",
+          "path": "tsconfig.build.json",
+          "contentType": "file"
+        },
+        {
+          "name": "tsconfig.json",
+          "path": "tsconfig.json",
+          "contentType": "file"
+        },
+        {
+          "name": "tsup.config.ts",
+          "path": "tsup.config.ts",
+          "contentType": "file"
+        },
+        {
+          "name": "vitest.config.ts",
+          "path": "vitest.config.ts",
+          "contentType": "file"
+        }
+      ],
+      "templateDirectorySuggestionUrl": null,
+      "readme": {
+        "displayName": "README.md",
+        "richText": "<article class=\"markdown-body entry-content container-lg\" itemprop=\"text\"><div align=\"center\" dir=\"auto\">\n  <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"/faker-js/faker/blob/next/docs/public/logo.svg\"><img src=\"/faker-js/faker/raw/next/docs/public/logo.svg\" width=\"200\" style=\"max-width: 100%;\"></a>\n  <div class=\"markdown-heading\" dir=\"auto\"><h1 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">Faker</h1><a id=\"user-content-faker\" class=\"anchor\" aria-label=\"Permalink: Faker\" href=\"#faker\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n  <p dir=\"auto\">Generate massive amounts of fake (but realistic) data for testing and development.</p>\n<p dir=\"auto\"><a href=\"https://www.npmjs.com/package/@faker-js/faker\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/b28c32201be9a413ff3cf9c0fb0c6767bdb209d0f0cb280cd44fd4f0e6e86d5b/68747470733a2f2f62616467656e2e6e65742f6e706d2f762f4066616b65722d6a732f66616b6572\" alt=\"npm version\" data-canonical-src=\"https://badgen.net/npm/v/@faker-js/faker\" style=\"max-width: 100%;\"></a>\n<a href=\"https://www.npmjs.com/package/@faker-js/faker\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/3676119c55271723008e0c4c6a294ca14de902175dadb9e2e656e0948cfa51f4/68747470733a2f2f62616467656e2e6e65742f6e706d2f646d2f4066616b65722d6a732f66616b6572\" alt=\"npm downloads\" data-canonical-src=\"https://badgen.net/npm/dm/@faker-js/faker\" style=\"max-width: 100%;\"></a>\n<a href=\"https://github.com/faker-js/faker/actions/workflows/ci.yml\"><img src=\"https://github.com/faker-js/faker/actions/workflows/ci.yml/badge.svg\" alt=\"Continuous Integration\" style=\"max-width: 100%;\"></a>\n<a href=\"https://codecov.io/gh/faker-js/faker\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/cda83e676afc95f7a085cdc533858067f33a617b1ddbe33e9f585f104cfe173b/68747470733a2f2f636f6465636f762e696f2f67682f66616b65722d6a732f66616b65722f6272616e63682f6e6578742f67726170682f62616467652e7376673f746f6b656e3d4e363155313638473038\" alt=\"codecov\" data-canonical-src=\"https://codecov.io/gh/faker-js/faker/branch/next/graph/badge.svg?token=N61U168G08\" style=\"max-width: 100%;\"></a>\n<a href=\"https://chat.fakerjs.dev\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/316f69525b52e7b6fc90424f682bd2c466a40fe26411d8ee7fa4147f1b2c9c43/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f636861742d646973636f72642d626c75653f7374796c653d666c6174266c6f676f3d646973636f7264\" alt=\"Chat on Discord\" data-canonical-src=\"https://img.shields.io/badge/chat-discord-blue?style=flat&amp;logo=discord\" style=\"max-width: 100%;\"></a>\n<a href=\"https://opencollective.com/fakerjs#section-contributors\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/eec8e79c1586b267fc8f27be7caa1c15e348adb05a82ca42e047547fd3653967/68747470733a2f2f696d672e736869656c64732e696f2f6f70656e636f6c6c6563746976652f6261636b6572732f66616b65726a73\" alt=\"Open Collective\" data-canonical-src=\"https://img.shields.io/opencollective/backers/fakerjs\" style=\"max-width: 100%;\"></a>\n<a href=\"https://opencollective.com/fakerjs\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/6088549e3da057f247f9a921a1e62390db93df4e6b432c23b77dc4e1a9c2d0c5/68747470733a2f2f696d672e736869656c64732e696f2f6f70656e636f6c6c6563746976652f616c6c2f66616b65726a733f6c6162656c3d73706f6e736f7273\" alt=\"sponsor\" data-canonical-src=\"https://img.shields.io/opencollective/all/fakerjs?label=sponsors\" style=\"max-width: 100%;\"></a></p>\n</div>\n<div class=\"markdown-heading\" dir=\"auto\"><h2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">⚡️ Try it Online</h2><a id=\"user-content-️-try-it-online\" class=\"anchor\" aria-label=\"Permalink: ⚡️ Try it Online\" href=\"#️-try-it-online\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\"><a href=\"https://fakerjs.dev/new\" rel=\"nofollow\">Open in StackBlitz</a></p>\n<div class=\"markdown-heading\" dir=\"auto\"><h2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">📙 API Documentation</h2><a id=\"user-content--api-documentation\" class=\"anchor\" aria-label=\"Permalink: 📙 API Documentation\" href=\"#-api-documentation\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<div class=\"markdown-heading\" dir=\"auto\"><h1 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\"><g-emoji class=\"g-emoji\" alias=\"warning\">⚠️</g-emoji> You are reading the docs for the <a href=\"https://github.com/faker-js/faker/tree/next\">next</a> branch <g-emoji class=\"g-emoji\" alias=\"warning\">⚠️</g-emoji></h1><a id=\"user-content-️-you-are-reading-the-docs-for-the-next-branch-️\" class=\"anchor\" aria-label=\"Permalink: ⚠️ You are reading the docs for the next branch ⚠️\" href=\"#️-you-are-reading-the-docs-for-the-next-branch-️\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\">Please proceed to the <a href=\"https://fakerjs.dev/guide/\" rel=\"nofollow\">Getting Started Guide</a> for the <strong>stable</strong> release of Faker.</p>\n<p dir=\"auto\">For detailed API documentation, please select the version of the documentation you are looking for.</p>\n<markdown-accessiblity-table><table>\n<thead>\n<tr>\n<th align=\"center\">Version</th>\n<th align=\"left\">Website</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">v9 (next)</td>\n<td align=\"left\"><a href=\"https://next.fakerjs.dev/\" rel=\"nofollow\">https://next.fakerjs.dev/</a></td>\n</tr>\n<tr>\n<td align=\"center\">v8 (stable)</td>\n<td align=\"left\"><a href=\"https://fakerjs.dev/\" rel=\"nofollow\">https://fakerjs.dev/</a></td>\n</tr>\n<tr>\n<td align=\"center\">v7 (old)</td>\n<td align=\"left\"><a href=\"https://v7.fakerjs.dev/\" rel=\"nofollow\">https://v7.fakerjs.dev/</a></td>\n</tr>\n</tbody>\n</table></markdown-accessiblity-table>\n<hr>\n<div class=\"markdown-heading\" dir=\"auto\"><h2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">🚀 Features</h2><a id=\"user-content--features\" class=\"anchor\" aria-label=\"Permalink: 🚀 Features\" href=\"#-features\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<ul dir=\"auto\">\n<li>💌 Locations - Generate valid looking Addresses, Zip Codes, Street Names, States, and Countries!</li>\n<li>⏰ Time-based Data - Past, present, future, recent, soon... whenever!</li>\n<li>🌏 Localization - Pick a locale to generate realistic looking Names, Addresses, and Phone Numbers.</li>\n<li>💸 Finance - Create stubbed out Account Details, Transactions, and Crypto Addresses.</li>\n<li>👠 Products - Generate Prices, Product Names, Adjectives, and Descriptions.</li>\n<li>👾 Hacker Jargon - “Try to reboot the SQL bus, maybe it will bypass the virtual application!”</li>\n<li>🧍 Names - Generate virtual humans with a complete online and offline identity.</li>\n<li>🔢 Numbers - Of course, we can also generate random numbers and strings.</li>\n</ul>\n<blockquote>\n<p dir=\"auto\"><strong>Note</strong>: Faker tries to generate realistic data and not obvious fake data.\nThe generated names, addresses, emails, phone numbers, and/or other data might be coincidentally valid information.\nPlease do not send any of your messages/calls to them from your test setup.</p>\n</blockquote>\n<div class=\"markdown-heading\" dir=\"auto\"><h2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">📦 Install</h2><a id=\"user-content--install\" class=\"anchor\" aria-label=\"Permalink: 📦 Install\" href=\"#-install\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<div class=\"highlight highlight-source-shell notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"npm install --save-dev @faker-js/faker\"><pre>npm install --save-dev @faker-js/faker</pre></div>\n<div class=\"markdown-heading\" dir=\"auto\"><h2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">🪄 Usage</h2><a id=\"user-content--usage\" class=\"anchor\" aria-label=\"Permalink: 🪄 Usage\" href=\"#-usage\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<div class=\"highlight highlight-source-ts notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"// ESM\nimport { faker } from '@faker-js/faker';\n\n// CJS\nconst { faker } = require('@faker-js/faker');\n\nexport function createRandomUser() {\n  return {\n    userId: faker.string.uuid(),\n    username: faker.internet.userName(),\n    email: faker.internet.email(),\n    avatar: faker.image.avatar(),\n    password: faker.internet.password(),\n    birthdate: faker.date.birthdate(),\n    registeredAt: faker.date.past(),\n  };\n}\n\nexport const users = faker.helpers.multiple(createRandomUser, {\n  count: 5,\n});\"><pre><span class=\"pl-c\">// ESM</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-kos\">{</span> <span class=\"pl-s1\">faker</span> <span class=\"pl-kos\">}</span> <span class=\"pl-k\">from</span> <span class=\"pl-s\">'@faker-js/faker'</span><span class=\"pl-kos\">;</span>\n\n<span class=\"pl-c\">// CJS</span>\n<span class=\"pl-k\">const</span> <span class=\"pl-kos\">{</span> faker <span class=\"pl-kos\">}</span> <span class=\"pl-c1\">=</span> <span class=\"pl-en\">require</span><span class=\"pl-kos\">(</span><span class=\"pl-s\">'@faker-js/faker'</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n\n<span class=\"pl-k\">export</span> <span class=\"pl-k\">function</span> <span class=\"pl-en\">createRandomUser</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">)</span> <span class=\"pl-kos\">{</span>\n  <span class=\"pl-k\">return</span> <span class=\"pl-kos\">{</span>\n    <span class=\"pl-c1\">userId</span>: <span class=\"pl-s1\">faker</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">string</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">uuid</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">,</span>\n    <span class=\"pl-c1\">username</span>: <span class=\"pl-s1\">faker</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">internet</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">userName</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">,</span>\n    <span class=\"pl-c1\">email</span>: <span class=\"pl-s1\">faker</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">internet</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">email</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">,</span>\n    <span class=\"pl-c1\">avatar</span>: <span class=\"pl-s1\">faker</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">image</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">avatar</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">,</span>\n    <span class=\"pl-c1\">password</span>: <span class=\"pl-s1\">faker</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">internet</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">password</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">,</span>\n    <span class=\"pl-c1\">birthdate</span>: <span class=\"pl-s1\">faker</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">date</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">birthdate</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">,</span>\n    <span class=\"pl-c1\">registeredAt</span>: <span class=\"pl-s1\">faker</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">date</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">past</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">,</span>\n  <span class=\"pl-kos\">}</span><span class=\"pl-kos\">;</span>\n<span class=\"pl-kos\">}</span>\n\n<span class=\"pl-k\">export</span> <span class=\"pl-k\">const</span> <span class=\"pl-s1\">users</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">faker</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">helpers</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">multiple</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">createRandomUser</span><span class=\"pl-kos\">,</span> <span class=\"pl-kos\">{</span>\n  <span class=\"pl-c1\">count</span>: <span class=\"pl-c1\">5</span><span class=\"pl-kos\">,</span>\n<span class=\"pl-kos\">}</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span></pre></div>\n<div class=\"markdown-heading\" dir=\"auto\"><h2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">💎 Modules</h2><a id=\"user-content--modules\" class=\"anchor\" aria-label=\"Permalink: 💎 Modules\" href=\"#-modules\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\">An in-depth overview of the API methods is available in the documentation for <a href=\"https://fakerjs.dev/api/\" rel=\"nofollow\">v8 (stable)</a> and <a href=\"https://next.fakerjs.dev/api/\" rel=\"nofollow\">v9.* (next)</a>.</p>\n<div class=\"markdown-heading\" dir=\"auto\"><h3 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">Templates</h3><a id=\"user-content-templates\" class=\"anchor\" aria-label=\"Permalink: Templates\" href=\"#templates\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\">Faker contains a generator method <code>faker.helpers.fake</code> for combining faker API methods using a mustache string format.</p>\n<div class=\"highlight highlight-source-ts notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"console.log(\n  faker.helpers.fake(\n    'Hello {{person.prefix}} {{person.lastName}}, how are you today?'\n  )\n);\"><pre><span class=\"pl-smi\">console</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">log</span><span class=\"pl-kos\">(</span>\n  <span class=\"pl-s1\">faker</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">helpers</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">fake</span><span class=\"pl-kos\">(</span>\n    <span class=\"pl-s\">'Hello {{person.prefix}} {{person.lastName}}, how are you today?'</span>\n  <span class=\"pl-kos\">)</span>\n<span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span></pre></div>\n<div class=\"markdown-heading\" dir=\"auto\"><h2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">🌏 Localization</h2><a id=\"user-content--localization\" class=\"anchor\" aria-label=\"Permalink: 🌏 Localization\" href=\"#-localization\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\">Faker has support for multiple locales.</p>\n<p dir=\"auto\">The main <code>faker</code> instance uses the English locale.\nBut you can also import instances using other locales.</p>\n<div class=\"highlight highlight-source-ts notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"// ESM\nimport { fakerDE as faker } from '@faker-js/faker';\n\n// CJS\nconst { fakerDE: faker } = require('@faker-js/faker');\"><pre><span class=\"pl-c\">// ESM</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-kos\">{</span> <span class=\"pl-s1\">fakerDE</span> <span class=\"pl-k\">as</span> <span class=\"pl-s1\">faker</span> <span class=\"pl-kos\">}</span> <span class=\"pl-k\">from</span> <span class=\"pl-s\">'@faker-js/faker'</span><span class=\"pl-kos\">;</span>\n\n<span class=\"pl-c\">// CJS</span>\n<span class=\"pl-k\">const</span> <span class=\"pl-kos\">{</span> <span class=\"pl-c1\">fakerDE</span>: <span class=\"pl-s1\">faker</span> <span class=\"pl-kos\">}</span> <span class=\"pl-c1\">=</span> <span class=\"pl-en\">require</span><span class=\"pl-kos\">(</span><span class=\"pl-s\">'@faker-js/faker'</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span></pre></div>\n<p dir=\"auto\">See our documentation for a list of <a href=\"https://fakerjs.dev/guide/localization.html#available-locales\" rel=\"nofollow\">provided languages</a>.</p>\n<p dir=\"auto\">Please note: Not every locale provides data for every module. In our pre-made faker instances,\nwe fall back to English in such a case as this is the most complete and most commonly used language.\nIf you don't want that or prefer a different fallback, you can also build your own instances.</p>\n<div class=\"highlight highlight-source-ts notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"import { de, de_CH, Faker } from '@faker-js/faker';\n\nexport const faker = new Faker({\n  locale: [de_CH, de],\n});\"><pre><span class=\"pl-k\">import</span> <span class=\"pl-kos\">{</span> <span class=\"pl-s1\">de</span><span class=\"pl-kos\">,</span> <span class=\"pl-s1\">de_CH</span><span class=\"pl-kos\">,</span> <span class=\"pl-smi\">Faker</span> <span class=\"pl-kos\">}</span> <span class=\"pl-k\">from</span> <span class=\"pl-s\">'@faker-js/faker'</span><span class=\"pl-kos\">;</span>\n\n<span class=\"pl-k\">export</span> <span class=\"pl-k\">const</span> <span class=\"pl-s1\">faker</span> <span class=\"pl-c1\">=</span> <span class=\"pl-k\">new</span> <span class=\"pl-smi\">Faker</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">{</span>\n  <span class=\"pl-c1\">locale</span>: <span class=\"pl-kos\">[</span><span class=\"pl-s1\">de_CH</span><span class=\"pl-kos\">,</span> <span class=\"pl-s1\">de</span><span class=\"pl-kos\">]</span><span class=\"pl-kos\">,</span>\n<span class=\"pl-kos\">}</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span></pre></div>\n<div class=\"markdown-heading\" dir=\"auto\"><h2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">⚙️ Setting a randomness seed</h2><a id=\"user-content-️-setting-a-randomness-seed\" class=\"anchor\" aria-label=\"Permalink: ⚙️ Setting a randomness seed\" href=\"#️-setting-a-randomness-seed\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\">If you want consistent results, you can set your own seed:</p>\n<div class=\"highlight highlight-source-ts notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"faker.seed(123);\n\nconst firstRandom = faker.number.int();\n\n// Setting the seed again resets the sequence.\nfaker.seed(123);\n\nconst secondRandom = faker.number.int();\n\nconsole.log(firstRandom === secondRandom);\"><pre><span class=\"pl-s1\">faker</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">seed</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">123</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n\n<span class=\"pl-k\">const</span> <span class=\"pl-s1\">firstRandom</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">faker</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">number</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">int</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n\n<span class=\"pl-c\">// Setting the seed again resets the sequence.</span>\n<span class=\"pl-s1\">faker</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">seed</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">123</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n\n<span class=\"pl-k\">const</span> <span class=\"pl-s1\">secondRandom</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">faker</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">number</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">int</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n\n<span class=\"pl-smi\">console</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">log</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">firstRandom</span> <span class=\"pl-c1\">===</span> <span class=\"pl-s1\">secondRandom</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span></pre></div>\n<div class=\"markdown-heading\" dir=\"auto\"><h2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">🤝 Sponsors</h2><a id=\"user-content--sponsors\" class=\"anchor\" aria-label=\"Permalink: 🤝 Sponsors\" href=\"#-sponsors\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\">Faker is an MIT-licensed open source project with its ongoing development made possible entirely by the support of these awesome backers</p>\n<div class=\"markdown-heading\" dir=\"auto\"><h3 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">Sponsors</h3><a id=\"user-content-sponsors\" class=\"anchor\" aria-label=\"Permalink: Sponsors\" href=\"#sponsors\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://camo.githubusercontent.com/adef89dd735432f8ca0c7f0064a2b1ee581d9555432d14877aaea09b3f89d86c/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f66616b65726a732f6f7267616e697a6174696f6e732e737667\"><img src=\"https://camo.githubusercontent.com/adef89dd735432f8ca0c7f0064a2b1ee581d9555432d14877aaea09b3f89d86c/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f66616b65726a732f6f7267616e697a6174696f6e732e737667\" alt=\"\" data-canonical-src=\"https://opencollective.com/fakerjs/organizations.svg\" style=\"max-width: 100%;\"></a></p>\n<div class=\"markdown-heading\" dir=\"auto\"><h3 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">Backers</h3><a id=\"user-content-backers\" class=\"anchor\" aria-label=\"Permalink: Backers\" href=\"#backers\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://camo.githubusercontent.com/1c9edfd8d1e50be506ee266f1fbb08c8990fb75c5a17d54e806d6a87b069a3a4/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f66616b65726a732f696e646976696475616c732e737667\"><img src=\"https://camo.githubusercontent.com/1c9edfd8d1e50be506ee266f1fbb08c8990fb75c5a17d54e806d6a87b069a3a4/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f66616b65726a732f696e646976696475616c732e737667\" alt=\"\" data-canonical-src=\"https://opencollective.com/fakerjs/individuals.svg\" style=\"max-width: 100%;\"></a></p>\n<div class=\"markdown-heading\" dir=\"auto\"><h2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">✨ Contributing</h2><a id=\"user-content--contributing\" class=\"anchor\" aria-label=\"Permalink: ✨ Contributing\" href=\"#-contributing\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\">Please make sure to read the <a href=\"https://github.com/faker-js/faker/blob/next/CONTRIBUTING.md\">Contributing Guide</a> before making a pull request.</p>\n<div class=\"markdown-heading\" dir=\"auto\"><h2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">📘 Credits</h2><a id=\"user-content--credits\" class=\"anchor\" aria-label=\"Permalink: 📘 Credits\" href=\"#-credits\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\">Thanks to all the people who already contributed to Faker!</p>\n<p dir=\"auto\"><a href=\"https://github.com/faker-js/faker/graphs/contributors\"><img src=\"https://camo.githubusercontent.com/41c9bc3e80a225f7b95aab63dd9c8d32438fa7be496f6bbe388d709d6287fab3/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f66616b65726a732f636f6e7472696275746f72732e7376673f77696474683d383030\" data-canonical-src=\"https://opencollective.com/fakerjs/contributors.svg?width=800\" style=\"max-width: 100%;\"></a></p>\n<p dir=\"auto\">The <a href=\"https://fakerjs.dev\" rel=\"nofollow\">fakerjs.dev</a> website is kindly hosted by the Netlify Team. Also the search functionality is powered by <a href=\"https://www.algolia.com\" rel=\"nofollow\">algolia</a>.</p>\n<div class=\"markdown-heading\" dir=\"auto\"><h2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">📝 Changelog</h2><a id=\"user-content--changelog\" class=\"anchor\" aria-label=\"Permalink: 📝 Changelog\" href=\"#-changelog\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\">Detailed changes for each release are documented in the <a href=\"https://github.com/faker-js/faker/blob/next/CHANGELOG.md\">release notes</a>.</p>\n<div class=\"markdown-heading\" dir=\"auto\"><h2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">📜 What happened to the original faker.js?</h2><a id=\"user-content--what-happened-to-the-original-fakerjs\" class=\"anchor\" aria-label=\"Permalink: 📜 What happened to the original faker.js?\" href=\"#-what-happened-to-the-original-fakerjs\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\">Read the <a href=\"https://fakerjs.dev/update.html\" rel=\"nofollow\">team update</a> (January 14th, 2022).</p>\n<div class=\"markdown-heading\" dir=\"auto\"><h2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">🔑 License</h2><a id=\"user-content--license\" class=\"anchor\" aria-label=\"Permalink: 🔑 License\" href=\"#-license\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\"><a href=\"https://github.com/faker-js/faker/blob/next/LICENSE\">MIT</a></p>\n</article>",
+        "errorMessage": null,
+        "headerInfo": {
+          "toc": [
+            {
+              "level": 1,
+              "text": "Faker",
+              "anchor": "faker",
+              "htmlText": "Faker"
+            },
+            {
+              "level": 2,
+              "text": "⚡️ Try it Online",
+              "anchor": "️-try-it-online",
+              "htmlText": "⚡️ Try it Online"
+            },
+            {
+              "level": 2,
+              "text": "📙 API Documentation",
+              "anchor": "-api-documentation",
+              "htmlText": "📙 API Documentation"
+            },
+            {
+              "level": 1,
+              "text": "⚠️ You are reading the docs for the next branch ⚠️",
+              "anchor": "️-you-are-reading-the-docs-for-the-next-branch-️",
+              "htmlText": "⚠️ You are reading the docs for the next branch ⚠️"
+            },
+            {
+              "level": 2,
+              "text": "🚀 Features",
+              "anchor": "-features",
+              "htmlText": "🚀 Features"
+            },
+            {
+              "level": 2,
+              "text": "📦 Install",
+              "anchor": "-install",
+              "htmlText": "📦 Install"
+            },
+            {
+              "level": 2,
+              "text": "🪄 Usage",
+              "anchor": "-usage",
+              "htmlText": "🪄 Usage"
+            },
+            {
+              "level": 2,
+              "text": "💎 Modules",
+              "anchor": "-modules",
+              "htmlText": "💎 Modules"
+            },
+            {
+              "level": 3,
+              "text": "Templates",
+              "anchor": "templates",
+              "htmlText": "Templates"
+            },
+            {
+              "level": 2,
+              "text": "🌏 Localization",
+              "anchor": "-localization",
+              "htmlText": "🌏 Localization"
+            },
+            {
+              "level": 2,
+              "text": "⚙️ Setting a randomness seed",
+              "anchor": "️-setting-a-randomness-seed",
+              "htmlText": "⚙️ Setting a randomness seed"
+            },
+            {
+              "level": 2,
+              "text": "🤝 Sponsors",
+              "anchor": "-sponsors",
+              "htmlText": "🤝 Sponsors"
+            },
+            {
+              "level": 3,
+              "text": "Sponsors",
+              "anchor": "sponsors",
+              "htmlText": "Sponsors"
+            },
+            {
+              "level": 3,
+              "text": "Backers",
+              "anchor": "backers",
+              "htmlText": "Backers"
+            },
+            {
+              "level": 2,
+              "text": "✨ Contributing",
+              "anchor": "-contributing",
+              "htmlText": "✨ Contributing"
+            },
+            {
+              "level": 2,
+              "text": "📘 Credits",
+              "anchor": "-credits",
+              "htmlText": "📘 Credits"
+            },
+            {
+              "level": 2,
+              "text": "📝 Changelog",
+              "anchor": "-changelog",
+              "htmlText": "📝 Changelog"
+            },
+            {
+              "level": 2,
+              "text": "📜 What happened to the original faker.js?",
+              "anchor": "-what-happened-to-the-original-fakerjs",
+              "htmlText": "📜 What happened to the original faker.js?"
+            },
+            {
+              "level": 2,
+              "text": "🔑 License",
+              "anchor": "-license",
+              "htmlText": "🔑 License"
+            }
+          ],
+          "siteNavLoginPath": "/login?return_to=https%3A%2F%2Fgithub.com%2Ffaker-js%2Ffaker"
+        }
+      },
+      "totalCount": 31,
+      "showBranchInfobar": false
+    },
+    "fileTree": {
+      "": {
+        "items": [
+          {
+            "name": ".devcontainer",
+            "path": ".devcontainer",
+            "contentType": "directory"
+          },
+          {
+            "name": ".github",
+            "path": ".github",
+            "contentType": "directory"
+          },
+          {
+            "name": ".vscode",
+            "path": ".vscode",
+            "contentType": "directory"
+          },
+          {
+            "name": "cypress",
+            "path": "cypress",
+            "contentType": "directory"
+          },
+          {
+            "name": "docs",
+            "path": "docs",
+            "contentType": "directory"
+          },
+          {
+            "name": "scripts",
+            "path": "scripts",
+            "contentType": "directory"
+          },
+          {
+            "name": "src",
+            "path": "src",
+            "contentType": "directory"
+          },
+          {
+            "name": "test",
+            "path": "test",
+            "contentType": "directory"
+          },
+          {
+            "name": ".editorconfig",
+            "path": ".editorconfig",
+            "contentType": "file"
+          },
+          {
+            "name": ".gitattributes",
+            "path": ".gitattributes",
+            "contentType": "file"
+          },
+          {
+            "name": ".gitignore",
+            "path": ".gitignore",
+            "contentType": "file"
+          },
+          {
+            "name": ".nvmrc",
+            "path": ".nvmrc",
+            "contentType": "file"
+          },
+          {
+            "name": ".prettierignore",
+            "path": ".prettierignore",
+            "contentType": "file"
+          },
+          {
+            "name": ".prettierrc.d.ts",
+            "path": ".prettierrc.d.ts",
+            "contentType": "file"
+          },
+          {
+            "name": ".prettierrc.js",
+            "path": ".prettierrc.js",
+            "contentType": "file"
+          },
+          {
+            "name": ".versionrc.json",
+            "path": ".versionrc.json",
+            "contentType": "file"
+          },
+          {
+            "name": "BACKERS.md",
+            "path": "BACKERS.md",
+            "contentType": "file"
+          },
+          {
+            "name": "CHANGELOG.md",
+            "path": "CHANGELOG.md",
+            "contentType": "file"
+          },
+          {
+            "name": "CODE_OF_CONDUCT.md",
+            "path": "CODE_OF_CONDUCT.md",
+            "contentType": "file"
+          },
+          {
+            "name": "CONTRIBUTING.md",
+            "path": "CONTRIBUTING.md",
+            "contentType": "file"
+          },
+          {
+            "name": "LICENSE",
+            "path": "LICENSE",
+            "contentType": "file"
+          },
+          {
+            "name": "README.md",
+            "path": "README.md",
+            "contentType": "file"
+          },
+          {
+            "name": "cypress.config.ts",
+            "path": "cypress.config.ts",
+            "contentType": "file"
+          },
+          {
+            "name": "eslint.config.js",
+            "path": "eslint.config.js",
+            "contentType": "file"
+          },
+          {
+            "name": "netlify.toml",
+            "path": "netlify.toml",
+            "contentType": "file"
+          },
+          {
+            "name": "package.json",
+            "path": "package.json",
+            "contentType": "file"
+          },
+          {
+            "name": "pnpm-lock.yaml",
+            "path": "pnpm-lock.yaml",
+            "contentType": "file"
+          },
+          {
+            "name": "tsconfig.build.json",
+            "path": "tsconfig.build.json",
+            "contentType": "file"
+          },
+          {
+            "name": "tsconfig.json",
+            "path": "tsconfig.json",
+            "contentType": "file"
+          },
+          {
+            "name": "tsup.config.ts",
+            "path": "tsup.config.ts",
+            "contentType": "file"
+          },
+          {
+            "name": "vitest.config.ts",
+            "path": "vitest.config.ts",
+            "contentType": "file"
+          }
+        ],
+        "totalCount": 31
+      }
+    },
+    "fileTreeProcessingTime": 3.604949,
+    "foldersToFetch": [],
+    "treeExpanded": false,
+    "symbolsExpanded": false,
+    "csrf_tokens": {
+      "/faker-js/faker/branches": {
+        "post": "e1c5YcF0VTXLWeG0nhtqFUnHUpn7xYNqhDe6GLfCNGaretEgsphIHif1lkRY2e_z_5vQpOpws6jUdJv5EPshVw"
+      }
+    }
+  },
+  "title": "faker/ at next · faker-js/faker"
+}
